@@ -2,6 +2,7 @@ package com.rddeveloper.integrations.resources;
 
 import com.rddeveloper.integrations.dto.EmailDTO;
 import com.rddeveloper.integrations.services.EmailService;
+import com.rddeveloper.integrations.services.SendGridEmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
